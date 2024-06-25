@@ -26,7 +26,7 @@ verb4 = input("give me a verb ending in -ing: ")
 
 print(f"Today is {d1} and it's {current_time}.")
 print(f"I should be at CodeNext right now,")
-print(f"but tell me why I'm at {place}...")
+print(f"but tell me why I'm at the {place}...")
 print(f"All around me I see {nouns1} {verb1} and {verb2}")
 print("Another thing to mention is that these")
 print(f"{nouns2} keep {adverb} staring at me.")
