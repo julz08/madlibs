@@ -1,6 +1,15 @@
 import datetime
+from datetime import date
+from datetime import datetime
 
-datetime.strptime('31/01/22 23:59:59.999999',
-                  '%d/%m/%y %H:%M:%S.%f')
+today = date.today()
+# Textual month, day and year	
+d1 = today.strftime("%B %d, %Y")
+# mm/dd/y
+d2 = today.strftime("%m/%d/%y")
 
-_.strftime('%a %d %b %Y, %I:%M%p')
+# datetime object containing current date and time
+now = datetime.now()
+# current time in hours(%H), minutes(%M) (optional: seconds(%S))
+current_time = now.strftime("%H:%M")
+
